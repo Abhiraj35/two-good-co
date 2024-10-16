@@ -29,10 +29,10 @@ html,body{
 #nav-part1{
     /* background-color: red; */
     height: 83px;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 #nav-part1 svg{
-    /* display: block; */
+    display: block;
 }
 #nav #nav-part2{
     display: flex;
@@ -96,6 +96,7 @@ html,body{
     height: 100%;
     width: 100%;
     object-fit: cover;
+    cursor: pointer;
 }
 #video-container #play{
     padding: 3vw 2vw;
@@ -160,9 +161,10 @@ html,body{
     background-color: palegoldenrod;
     position: absolute;
     border-radius: 50px;
+    transition: height 0.5s ease;
 }
 #page2 .elem .dets:hover{
-    height: 350px;
+    height: 150px;
 
 }
 #page3{
